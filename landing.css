@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: azure;
+    font-family: 'Courier New', Courier, cursive;
+    font-size: 16px;
+}
+.top{
+    background-color: black;
+    overflow: hidden;
+}
+.menu a{
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.menu a:hover{
+    background-color: #ddd;
+    color: black;
+}
+.menu a.active{
+    background-color:orangered;
+    color: white;
+}
+img{
+    border: 0.5px solid black;
+    width: 400px;
+    height: 500px;
+    border-radius: 5px;
+}
+h1{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: bolder;
+}
+p{
+    text-align: center;
+    margin: 5px;
+    margin-top: 70px;
+    line-height: 1.5em;
+    font-size: 20px;
+    font-weight: normal;
+    font-family: serif;
+}
+.container{
+    width: 99.8%;
+    height: 100%;
+    margin-left: 0.1%;
+}
+.center{
+    height: auto;
+}
+.left{
+    width: 35%;
+    height: 480px;
+    margin-left: 40px;
+    float: left;
+}
+.right{
+    width: 50%;
+    height: 480px;
+    margin-left: 45%;
+    margin-right: 40px;
+}
+input{
+    margin-top: 40px;
+    width: 40%;
+    margin-left: 30%;
+    height: 40px;
+    background-color: orangered;
+    color: white;
+}
+.bottom{
+    border: 1px solid black;
+    background-color: black;
+    width: 100%;
+    height: auto;
+    color: white
+}
+.p{
+    margin-top: 20px;
+    color: white;
+}
+.bb{
+    margin-top: 5px;
+}
+@media screen and (max-width: 600px) {
+    body{max-width: 600px; }
+    main{max-width: 600px;}
+    .top{max-width: 600px;}
+    img{width: 500px}
+    .right{margin-top: 600px; margin-left: 28%;}
+}    
+@media screen and (max-width: 300px){
+    body{max-width: 300px;}
+    main{max-width: 300px;}
+    .top{max-width: 300px;}
+    img{width: 200px;}
+    .right{margin-top: 510px;}
+}

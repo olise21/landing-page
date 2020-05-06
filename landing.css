@@ -97,10 +97,10 @@ input{
     img{width: 500px}
     .right{margin-top: 600px; margin-left: 28%;}
 }    
-@media screen and (max-width: 300px){
-    body{max-width: 300px;}
-    main{max-width: 300px;}
-    .top{max-width: 300px;}
-    img{width: 200px;}
+@media screen and (max-width: 492px){
+    body{max-width: 492px;}
+    main{max-width: 492px;}
+    .top{max-width: 492px;}
+    img{width: 320px;}
     .right{margin-top: 510px;}
 }
